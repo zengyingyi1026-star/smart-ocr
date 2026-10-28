@@ -96,7 +96,7 @@ def parse_page_range(s, total):
         return 1, min(total, MAX_PAGES_PER_RUN)
 
 st.title("📝 智能文字辨識")
-st.caption("GLM-4V-Flash 讀圖辨字 → GLM-4-Flash 二次校正（雙模型皆免費）｜支援圖片與 PDF")
+st.caption("GLM-4V-Flash 讀圖辨字 → GLM-4-Flash 二次校正｜支援圖片與 PDF")
 
 client = get_client()
 left, right = st.columns(2)
